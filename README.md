@@ -1,12 +1,17 @@
 # kafka-casbin
 ![License](https://img.shields.io/github/license/jcasbin/kafka-casbin)
+[![Maven Central](https://img.shields.io/maven-central/v/org.casbin/kafka-casbin.svg)](https://central.sonatype.com/artifact/org.casbin/kafka-casbin)
 
 [Kafka](https://kafka.apache.org) authorization plugin based on Casbin.
 
 ## Installation
 
-```
-git clone https://github.com/jcasbin/kafka-casbin.git
+``` xml
+<dependency>
+    <groupId>org.casbin</groupId>
+    <artifactId>kafka-casbin</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 ## Simple Example
 
